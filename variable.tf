@@ -4,5 +4,5 @@ variable "name" {
 }
 
 variable "location" {
-    default = "Canada Central"
+    
 }
