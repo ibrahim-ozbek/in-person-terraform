@@ -7,10 +7,10 @@ terraform {
   }
   
   backend "remote" {
-    organization = "deneme12345"
+    organization = "in-person-organization"
 
   workspaces {
-      name = "terraform-cloud-prod"
+      name = "in-person-terraform"
     }
   }
 }
